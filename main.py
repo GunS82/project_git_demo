@@ -8,15 +8,23 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+
 def print_hello(name):
     print(f'Hello", {name}')
 
+
 def print_goodbye(name):
     print(f'Goodbye", {name}')
+
+
+def print_mybirthday(name):
+    print(f'My birthday in ", {name}')
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     print_hello('PyCharm')
     print_goodbye('Pop')
+    print_mybirthday('September')
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
